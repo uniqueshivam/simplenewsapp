@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+
+
+    android:orientation="vertical"
+    tools:context="com.example.shivamgupta.newsapp.NewsByGoogle">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="News Headlines"
+        android:textSize="25dp"
+        android:fontFamily="monospace"
+
+        android:textAlignment="center"
+        android:textColor="#F4FF81"
+
+        android:paddingTop="20dp"
+       />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered By Google API"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="150dp"
+        android:paddingTop="5dp"
+
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latest news just a Touch away!!"
+        android:textSize="20dp"
+        android:textColor="#F4FF81"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/breaking"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="25dp"
+        android:src="@drawable/bbc" />
+
+</LinearLayout>

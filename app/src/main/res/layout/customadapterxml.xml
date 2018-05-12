@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="#F0F4C3"
+        android:id="@+id/author"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:textColor="#B2EBF2"
+
+        android:id="@+id/titlenews"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FAFAFA"
+       android:paddingTop="10dp"
+        android:paddingLeft="2dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+
+        android:textSize="20dp"
+
+        android:id="@+id/description"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To read more please click the below link:-"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:textColor="#B2EBF2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F0F4C3"
+        android:textSize="15dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:textAlignment="center"
+
+        android:autoLink="web"
+        android:id="@+id/url"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+
+
+        android:id="@+id/imagetourl"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context="com.example.shivamgupta.newsapp.breakingnews">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="#FFC400"
+        android:paddingBottom="150dp"
+        android:paddingLeft="150dp"
+
+
+        android:paddingRight="100dp"
+        android:paddingTop="220dp" />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view">
+
+
+    </ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty"
+        android:visibility="gone"
+        android:textColor="@color/colorAccent"
+        android:paddingTop="200dp"
+        android:paddingBottom="150dp"
+        android:paddingRight="100dp"
+        android:paddingLeft="100dp"
+
+        android:textSize="25dp"/>
+
+</LinearLayout>
